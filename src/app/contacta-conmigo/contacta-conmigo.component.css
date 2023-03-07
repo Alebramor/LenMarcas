@@ -1,0 +1,52 @@
+.formulario-de-contacto {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f7f7f7;
+}
+
+.formtable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.formtable td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.formtable td:first-child {
+  width: 30%;
+}
+
+.formtable label {
+  font-weight: bold;
+}
+
+.formtable input[type="text"],
+.formtable input[type="email"],
+.formtable textarea {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.formtable p {
+  font-size: 12px;
+  color: #999;
+  margin-top: 10px;
+}
+
+.formtable button[type="submit"] {
+  background-color: rgb(160, 196, 210);
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
