@@ -1,0 +1,43 @@
+<div class="formulario-de-contacto">
+  <form action="enviar.php" method="post">
+    <table class="formtable">
+      <tr>
+        <td colspan="3">
+          <label for="nombre">* Nombre o en su defecto el indicativo para poder referirme a usted:</label>
+          <input type="text" id="nombre" name="nombre" required>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="email">* Email:</label>
+          <input type="email" id="email" name="email" required>
+        </td>
+        <td>
+          <label for="phone">Telefono:</label>
+          <input type="text" id="phone" name="phone" required>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <label for="mensaje">* Motivo del mensaje:</label>
+          <textarea id="mensaje" name="mensaje" required></textarea>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <p>Las secciones marcadas con * son obligatorias</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <button type="submit">Enviar</button>
+        </td>
+      </tr>
+    </table>
+  </form>
+</div>
+<div class="VueltaInicio">
+  <button (click)="vueltaInicio()"></button>
+
+</div>
+
